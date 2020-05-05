@@ -9,7 +9,7 @@ function Followers(props) {
                 <img src={follower.avatar_url} alt='follower user profile' />
                 <div className='card-info'>
                    <h3>{follower.login}</h3>
-                    <p><a href='{follower.html_url}'>{follower.html_url}</a></p> 
+                    <p><a href={follower.html_url} rel='noopener noreferrer' target='_blank'>{follower.html_url}</a></p>
                 </div>
             </div>))}
         </>

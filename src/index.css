@@ -23,17 +23,22 @@ code {
 
 .card {
   display: flex;
+  align-items: center;
   background-color: lightgray;
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 5px;
-  width: 40%;
+  width: 45%;
 }
 
 .card img {
   width: 150px;
   height: 150px;
   border-radius: 5px;
+}
+
+.card-info {
+  padding-left: 15px;
 }
 
 .card p, h3 {

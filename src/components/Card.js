@@ -10,9 +10,6 @@ function Card(props) {
                 <p>{props.me.login}</p>
                 <p>{props.me.location}</p>
                 <p><a href={props.me.html_url} rel='noopener noreferrer' target='_blank'>{props.me.html_url}</a></p>
-                <p>{props.me.followers}</p>
-                <p>{props.me.following}</p>
-                <p>{props.me.bio}</p>
             </div>
         </div>
     )
